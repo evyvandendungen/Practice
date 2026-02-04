@@ -1,1 +1,3 @@
-file=open('transactions.csv')
+idx = 0
+file = open('transactions.csv')
+lines = file.readlines()
