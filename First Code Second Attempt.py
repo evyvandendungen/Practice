@@ -54,7 +54,7 @@ def ignoreComma(line): #here my_line gets the alias line for the duration of the
                 chrs.append(chr)
             elif inString is False:
                 field = ''.join(chrs) #join turns the list chrs into a string, which we then want to add to the fields list. Dont need the variable name, can also input join into the append method
-                fields.append(field)
+                fields.append(field) #such as fields.append("".join(field))
                 chrs = []
         else:
             chrs.append(chr)
